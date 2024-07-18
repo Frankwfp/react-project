@@ -1,0 +1,11 @@
+.p-scrollpanel-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    .card {
+        height: 100%;
+        .p-datatable {
+            height: 100%;
+        }
+    }
+}
