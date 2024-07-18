@@ -1,0 +1,16 @@
+.robot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .rbTitle {
+    color: #1D1D1D;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 32px;
+    margin-bottom: 16px;
+  }
+  .rbContent {
+    padding: 0 32px 32px;
+    flex: 1;
+  }
+}
