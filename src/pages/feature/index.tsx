@@ -5,6 +5,7 @@ import './index.scss'
 import SearchTable from '@/components/SearchTable/index'
 
 const Robot = () => {
+  const feature = "feature feature";
   const [dataList, setData] = useState<any[]>([])
   const [loading, setLoad] = useState(false)
   const getDate = () => {
