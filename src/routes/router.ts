@@ -4,7 +4,9 @@ const Login = lazy(() => import('@/pages/login/index')) //登录
 const NotFound = lazy(() => import('@/pages/404/index')) //404页面
 const Layout = lazy(() => import('@/pages/layout/index')) //布局
 const Knowledge = lazy(() => import('@/pages/knowledge/index')) //知识库
-const Robot = lazy(() => import('@/pages/robot/index')) //知识库
+const Robot = lazy(() => import('@/pages/robot/index')) //机器人
+const Release = lazy(() => import('@/pages/release/index')) //机器人
+const Release2 = lazy(() => import('@/pages/release2/index')) //机器人
 
 const routes = [
   {
@@ -32,14 +34,14 @@ const routes = [
         }
       },
       {
-        name: 'chat',
-        path: 'chat',
-        component: Login
+        name: 'release',
+        path: 'release',
+        component: Release
       },
       {
-        name: 'setting',
-        path: 'setting',
-        component: Login
+        name: 'release2',
+        path: 'release2',
+        component: Release2
       }
     ]
   },
